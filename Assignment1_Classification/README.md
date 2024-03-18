@@ -20,4 +20,8 @@ With all the features that are intuitively considered to be positively correlate
 ### 5. Perform GridSearch
 * Best mean cross-validation score: 0.683
 * Best parameters: {'max_depth': 10, 'min_samples_leaf': 1, 'min_samples_split': 3, 'n_estimators': 50}
+* Accuracy: 47.06%
+* F1 score: 46.02%
+* Precision: 53.33%
+* Recall: 48.43%
 ### 6. Submit the model
