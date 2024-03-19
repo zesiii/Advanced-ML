@@ -1,8 +1,9 @@
-# Classification Models of Country Happiness Level
+# [Classification Models of Country Happiness Level](assignment1_clean.ipynb)
 ## Overview
 This model is based on the world happiness index dataset, and tries to predict a country's happiness into 5 levels. 
 A Random Forest classification model is used here. Grid search is used to fine tune the model. 
 Finally, the model is submitted to aimodelshare to compare its performance with other models. 
+
 *Note: the dataset can be found here [world happiness dataset](world_happiness_competition_data.zip) [other country variables](newcountryvars.csv)*
 ## Steps
 ### 1. Merging country variables into the dataset
