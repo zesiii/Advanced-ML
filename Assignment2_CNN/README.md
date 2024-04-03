@@ -1,5 +1,4 @@
-# Using CNN to Classify Lung X-ray Images
-
+# Explore CNN techniques in Medical Image Segmentation
 ## Contents
 - [Overview](#overview)
 - [Steps](#steps)
