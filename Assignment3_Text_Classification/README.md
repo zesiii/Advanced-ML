@@ -44,7 +44,7 @@ At the root of the project, you will see:
 └── README.md
 ```
 ## Guidance
-All model weights and test data are included in this repo. You just have to run the [front_end.ipynb(back&fronted/front_end.ipynb) file, choose one of the three model choices we provide: `Glove200d`, `CNN` or `BERT`. It will preprocess the data based on the specific model, retrieve the model class and associated weights file path in the backend. The output will be prediction results and metrics as plots for you.
+All model weights and test data are included in this repo. You just have to run the [front_end.ipynb](back&fronted/front_end.ipynb) file, choose one of the three model choices we provide: `Glove200d`, `CNN` or `BERT`. It will preprocess the data based on the specific model, retrieve the model class and associated weights file path in the backend. The output will be prediction results and metrics as plots for you.
 
 ## Steps
 ### EDA
