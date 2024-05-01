@@ -25,19 +25,26 @@ Then for deep learning approaches, we experimented with LSTM, keras tuner, GloVe
 ## Structure
 At the root of the project, you will see: 
 ```text
-├── dir1
-│   ├── file11.ext
-│   └── file12.ext
-├── dir2
-│   ├── file21.ext
-│   ├── file22.ext
-│   └── file23.ext
-├── dir3
+├── back&froneted
+│   ├── basicnn_model_weights.h5
+│   └── bert_model_weights.h5
+|   └──glove_model_weights.h5
+|   └──glove.6B.200d.txt
+|   └──main.py
+|   └──models.py
+|   └──performance_metrics.py
+|   └──data_processing.py
+|   └──utils.py
+|   └──requirements.txt
+|   └──front_end.ipynb
+├── uncleaned_code
+│   ├── assignment3_Part1_2_yz4691_qg2218
+│   ├── assignment3_Part2_2_yz4691_qg2218
 ├── final_report.ipynb
 └── README.md
 ```
 ## Guidance
-All model weights and test data are included in this repo. You just have to run the [main.py](main.py) file, choose one of the three model choices we provide: `Glove200d`, `CNN` or `BERT`. It will preprocess the data based on the specific model, retrieve the model class and associated weights file path in the backend. The output will be prediction results and metrics as plots for you.
+All model weights and test data are included in this repo. You just have to run the [front_end.ipynb(back&fronted/front_end.ipynb) file, choose one of the three model choices we provide: `Glove200d`, `CNN` or `BERT`. It will preprocess the data based on the specific model, retrieve the model class and associated weights file path in the backend. The output will be prediction results and metrics as plots for you.
 
 ## Steps
 ### EDA
